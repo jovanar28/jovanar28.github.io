@@ -1,0 +1,293 @@
+*{
+    box-sizing: border-box;
+}
+body{ 
+    background-color: #0C0F38;
+}
+
+.nav-link{
+    color: white;
+}
+
+.column1{
+    float: left;
+    width: 66.66%;
+    padding: 150px;
+
+}
+.column2{
+    float: left;
+    width: 33.33%;
+    padding: 200px;
+
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+h1{
+    color:white;
+    font-family:'Roboto',sans-serif;
+    font-style: bold;
+    font-size: 50px;
+    text-align: cent;
+}
+h2{
+    color:white;
+    font-family:'Roboto',sans-serif;
+    font-size: 40px;
+    text-align: cent;
+    font-style: bold;
+}
+h3{
+    color:white;
+    font-family:'Roboto',sans-serif;
+    font-size: 38px;
+    text-align: cent;
+}
+h4{
+    color:white;
+    font-family:'Outfit',sans-serif;
+    font-size: 32px;
+    text-align: cent;
+}
+
+h6{
+    color:white;
+    font-family:'Outfit',sans-serif;
+    font-size: 16px;
+    text-align: cent;
+}
+
+p{
+    color: white;
+    font-family:'Outfit',monospace;
+    font-size: 28px;
+}
+.cyperwebb {
+    position: absolute;
+    top: 30px;
+    left: 106px;
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+  }
+#navv{
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+
+.navbar {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#navlogo{
+    margin-left: 150px;
+    margin-bottom: 90px;
+}
+#ponuda{
+    margin-left: 200px;
+}
+#blog{
+    margin-left: 100px;
+}
+#kontakt{
+    margin-left: 200px;
+}
+.prvaslika{
+    margin-left: 20px;
+}
+
+.search-bar{
+    top: 111px;
+    left: 91px;
+    width: 565px;
+    height: 63px;
+}
+.btn {
+  background-color: #F46036;
+  border:none;
+  display: inline-block;
+  border-radius: 40px;
+ 
+}
+.btn2 {
+    background-color: #0C0F38;
+    border:none;
+    display: inline-block;
+    border-radius: 40px;
+   
+  }
+.btn-detaljnije{
+  background-color: #F46036;
+  border:none;
+  display: inline-block;
+  border-radius: 40px;
+  height: 75%;
+  width: 265px;
+}
+
+.btn-paket{
+    text-align: justify;
+    background-color: #F46036;
+    border:none;
+    display: inline-block;
+    border-radius: 60px;
+    height: 100px;
+    width: 450px;
+    margin-top: 70px;
+  }
+
+.rsdgod1 {
+    font-size:16px
+}
+
+.ponuda-child-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ponuda-row{
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.ponuda{
+    border-radius: 25px;
+    border: 5px solid #159BA1;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+.paket{
+    border-radius: 25px;
+    border: 5px solid #159BA1;  
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 55px;
+    margin-right: 55px;
+   
+}
+
+.ponuda-recommended{
+    border-radius: 25px;
+    border: 5px solid #D4088C;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+.ispod-ponude{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.btn-prelaz{
+  text-align: center;   
+  background-color: #F46036;
+  border:none;
+  display: inline-block;
+  border-radius: 50px;
+  width: 400px;
+  height:100px;
+  margin-top: 10px;
+
+
+}
+
+.footer{
+    background-color: #F46036;   
+}
+
+.footer-p{
+    font-size: 16px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
+.kolona{
+    margin-top: 30px;
+}
+.red{
+    margin-top: 10px;
+}
+.redic{
+    margin-left: 20px;
+}
+.redic1{
+    margin-left: 50px;
+}
+.redic2{
+    margin-left: 70px;
+}
+.redic3{
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.redic4{
+    margin-left:70px;
+    margin-top: 50px;
+}
+.migred{
+    margin-bottom: 60px;
+}
+
+.container-fluid{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.row2{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+#con{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+#con2{
+    padding-top: 3em;
+    padding-bottom: 6em;
+}
+.webhosting{
+    background-image: "./img/pozadina.png";
+}
+.footer-div{
+margin-left: 100px;
+}
+.search-div{
+    padding: 40px;
+}
+.tekst{
+    margin-bottom: 40px;
+}
+
+
+.upload {  
+    height: 100%;
+    width: 100%;
+    background-color: rgba(#ffffff, 0.32);
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 23px;
+    position: relative;
+
+    &__file-name {
+      display: inline-block;
+      font-size: 1.4rem;
+      font-weight: bold;
+      line-height: 120%;
+      color: rgba(#fff, 0.48);
+      background-color: rgba(#F0F0F0, 0.32);
+
+    }
+  
+}
